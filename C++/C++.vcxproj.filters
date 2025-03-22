@@ -9,20 +9,21 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{20e4215e-66d6-49c8-b13d-4d74b82be89d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ActiveBreach.h">
+    <ClInclude Include="ActiveBreach.hpp">
       <Filter>Include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ActiveBreach.c">
+    <ClCompile Include="ActiveBreach.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Stub.asm">
-      <Filter>Core</Filter>
-    </None>
+    <ClCompile Include="Test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
